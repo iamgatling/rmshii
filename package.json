@@ -1,10 +1,10 @@
 {
   "name": "rmshii",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove comments and emojis from your code.",
   "main": "index.js",
   "bin": {
-    "rmshii": "index.js"
+    "rmshii": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,14 @@
   ],
   "author": "Gatling",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgatling/rmshii.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamgatling/rmshii/issues"
+  },
+  "homepage": "https://github.com/iamgatling/rmshii#readme",
   "dependencies": {
     "commander": "^14.0.3",
     "emoji-regex": "^10.6.0",
